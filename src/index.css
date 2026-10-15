@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Custom scrollbars for long player names and tables */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 116, 139, 0.7) rgba(15, 23, 42, 0.6);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.7);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.9);
+}
+
+.name-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(52, 211, 153, 0.6) rgba(30, 41, 59, 0.8);
+}
+
+.name-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.name-scrollbar::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.8);
+  border-radius: 9999px;
+}
+
+.name-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(52, 211, 153, 0.6);
+  border-radius: 9999px;
+}
+
+.name-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.9);
+}

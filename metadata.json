@@ -1,0 +1,6 @@
+{
+  "name": "FM26 Tactical Copilot",
+  "description": "Copilota tattico universale per Football Manager 2026: gestione rosa, lavagna tattica interattiva, analisi avversari e piani gara AI, OCR calendario e classifiche da screenshot, gestione competizioni e salvataggi JSON.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
